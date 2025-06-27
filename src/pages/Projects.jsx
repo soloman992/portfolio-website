@@ -5,14 +5,14 @@ function Projects() {
         {
             title: 'Portfolio Website',
             description: 'A personal portfolio to showcase my work.',
-            image: '/portfolio-website/images/pic1.jpg',
+            image: '/images/pic1.jpg',
             github: 'https://github.com/',
             live: 'https://google.com'
         },
         {
             title: 'Blog App',
             description: 'A full stack blog application with CRUD features.',
-            image: '/portfolio-website/images/pic2.jpg',
+            image: '/images/pic2.jpg',
             github: 'https://github.com/',
             live: 'https://google.com'
         },
