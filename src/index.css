@@ -1,4 +1,3 @@
-/* index.css */
 html, body, #root {
     height: 100%;
     margin: 0;
@@ -24,25 +23,41 @@ nav a.active {
     color: #007bff;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
 
+.logo {
+    flex: 0 0 auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.hamburger {
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+@media (min-width: 769px) {
+    .hamburger {
+        display: none;
+    }
+}
 
 @media (max-width: 768px) {
     nav {
-        flex-direction: column !important;
-        align-items: flex-start !important;
+        flex-direction: row !important;
+        align-items: center !important;
     }
 
     nav h2 {
-        margin-bottom: 10px;
-    }
-
-    nav div {
-        flex-direction: column !important;
-        gap: 10px !important;
-    }
-
-    .project-card {
-        width: 90% !important;
+        margin-bottom: 0;
     }
 
     .nav-links {
@@ -51,5 +66,9 @@ nav a.active {
 
     .hamburger {
         display: flex !important;
+    }
+
+    .navbar {
+        padding: 0 15px;
     }
 }
