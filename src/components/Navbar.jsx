@@ -27,7 +27,7 @@ function Navbar() {
                 boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
                 position: 'relative',
                 justifyContent: 'space-between',
-                height: '60px',
+                height: '45px',
                 zIndex: 1000,
             }}>
 
@@ -78,6 +78,8 @@ function Navbar() {
                         animate={{ height: 'auto', opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
                         style={{
+                            fontSize: '18px',
+                            fontWeight: 700,
                             backgroundColor: '#ffffff',
                             boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
                             position: 'absolute',
