@@ -6,8 +6,8 @@ function Projects() {
             title: 'Portfolio Website',
             description: 'A personal portfolio to showcase my work.',
             image: '/portfolio-website/images/pic1.jpg',
-            github: 'https://github.com/',
-            live: 'https://google.com'
+            github: 'https://github.com/soloman992/portfolio-website',
+            live: 'https://soloman992.github.io/portfolio-website/'
         },
         {
             title: 'Blog App',
