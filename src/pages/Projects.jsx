@@ -13,8 +13,8 @@ function Projects() {
             title: 'Blog App',
             description: 'A full stack blog application with CRUD features.',
             image: '/portfolio-website/images/pic2.jpg',
-            github: 'https://github.com/',
-            live: 'https://google.com'
+            github: 'https://github.com/soloman992/blog-application',
+            live: 'https://soloman992.github.io/blog-application/'
         },
         // Add more projects as you build them
     ];
